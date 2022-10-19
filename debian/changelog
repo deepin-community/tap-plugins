@@ -1,0 +1,143 @@
+tap-plugins (1.0.0-1) unstable; urgency=medium
+
+  * New upstream version 1.0.0
+  * Bump Standards.
+  * Vcs - use git instead og cgit.
+  * Update Homepage to avoid redirecting.
+  * Use secure uri in watch file.
+
+ -- Jaromír Mikeš <mira.mikes@seznam.cz>  Sat, 25 Nov 2017 12:52:50 +0100
+
+tap-plugins (0.7.3-2) unstable; urgency=medium
+
+  * Set dh/compat 10.
+  * Update copyright file.
+  * Sign tags.
+  * Bump Standards.
+  * Fix VCS fields.
+  * Tune .gitignore file.
+  * Fix hardening.
+  * Avoid useless linking.
+
+ -- Jaromír Mikeš <mira.mikes@seznam.cz>  Mon, 26 Dec 2016 22:28:06 +0100
+
+tap-plugins (0.7.3-1) unstable; urgency=low
+
+  * Imported Upstream version 0.7.3
+  * Patch updated.
+
+ -- Jaromír Mikeš <mira.mikes@seznam.cz>  Thu, 05 Jun 2014 23:26:30 +0200
+
+tap-plugins (0.7.2-2) unstable; urgency=low
+
+  [ Alessio Treglia ]
+  * Remove DM-Upload-Allowed field, not needed anymore.
+
+  [ Jaromír Mikeš ]
+  * Set compat/dh 9.
+  * Bump Standards.
+  * Update VCS urls.
+  * Added patch to pass flags correctly.
+
+ -- Jaromír Mikeš <mira.mikes@seznam.cz>  Wed, 26 Feb 2014 21:48:09 +0100
+
+tap-plugins (0.7.2-1) unstable; urgency=low
+
+  * Team upload.
+  * New bugfix release:
+    - Fix sharp peaks / level jumps in the output when using the Scaling
+      Limiter plugin.
+  * Update debian/copyright.
+  * Bump Standards.
+
+ -- Alessio Treglia <alessio@debian.org>  Wed, 18 Jul 2012 16:56:59 +0200
+
+tap-plugins (0.7.1-2) unstable; urgency=low
+
+  * Team upload.
+  * Set pkg format to 3.0 (quilt).
+  * Ease building with gbp.
+  * Add gbp configuration file.
+  * Update debian/copyright to comply with DEP-5 svn.174.
+  * Remove myself from the Uploaders field.
+  * Bump Standards.
+
+ -- Alessio Treglia <alessio@debian.org>  Fri, 01 Jul 2011 12:19:07 +0200
+
+tap-plugins (0.7.1-1) unstable; urgency=low
+
+  [ Jaromír Mikeš ]
+  * New upstream release
+  * Watch file added
+  * Reworked copyright file
+  * Removed - clean from rules file
+  * Removed dh-clean-k from rules file
+  * Removed Homepage from description
+  * Added Homepage field
+  * Added Vcs-Browser field
+  * Added Vcs-Git field
+  * Bump to standards version 3.8.3
+  * Switched to debhelper 7
+  * Added Uploaders
+  * Changed maintainer
+  * Compatibility changed to 7
+  * Added DM-Upload-Allowed field
+  * Documentation moved to separate package
+    tap-plugins-doc
+
+  [ Alessio Treglia ]
+  * Adopting this (Closes: #508845).
+  * Bump Standards.
+  * Switch to debhelper 7.
+  * Set myself as first uploader.
+
+ -- Jaromír Mikeš <mira.mikes@seznam.cz>  Sun, 18 Apr 2010 10:17:26 +0200
+
+tap-plugins (0.7.0-2) unstable; urgency=low
+
+  * Include documentation (Closes: #303230)
+  * Revert change to biquad_run function (Closes: #315575)
+
+ -- Anand Kumria <wildfire@progsoc.org>  Mon, 31 Oct 2005 18:45:50 +1100
+
+tap-plugins (0.7.0-1) unstable; urgency=low
+
+  * New upstream release (closes: #294086)
+
+ -- Anand Kumria <wildfire@progsoc.org>  Thu, 24 Feb 2005 09:40:13 +1100
+
+tap-plugins (0.6.0-1) unstable; urgency=low
+
+  * Many new upstream releases
+  * Documentation removed, it shall return.
+
+ -- Anand Kumria <wildfire@progsoc.org>  Mon, 19 Jul 2004 02:32:50 +1000
+
+tap-plugins (0.3.0-2) unstable; urgency=low
+
+  * Correct doc-base to point to right file (closes: #232686)
+  * Provide virtual package 'ladspa-plugin' so we get recommended
+    by more hosts
+
+ -- Anand Kumria <wildfire@progsoc.org>  Mon, 16 Feb 2004 01:38:56 +1100
+
+tap-plugins (0.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update web-site and email references. Improve description.
+
+ -- Anand Kumria <wildfire@progsoc.org>  Sat,  7 Feb 2004 23:55:05 +1100
+
+tap-plugins (0.2.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Use 'mkdir -p' rather than mkdirhier
+
+ -- Anand Kumria <wildfire@progsoc.org>  Wed,  4 Feb 2004 15:05:32 +1100
+
+tap-plugins (0.1.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Anand Kumria <wildfire@progsoc.org>  Mon, 26 Jan 2004 16:51:30 +1100
+

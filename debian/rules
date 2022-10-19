@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	find . -name "*.png" -exec rm '{}' \;
+	find . -name "*.gif" -exec rm '{}' \;
+
+override_dh_auto_install:
+	$(MAKE) install \
+		INSTALL_PLUGINS_DIR=$(CURDIR)/debian/tap-plugins/usr/lib/ladspa \
+		INSTALL_LRDF_DIR=$(CURDIR)/debian/tap-plugins/usr/share/ladspa/rdf

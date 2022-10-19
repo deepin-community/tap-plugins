@@ -1,0 +1,3 @@
+version=3
+
+https://sf.net/tap-plugins/tap-plugins-([\d.]+)\.tar\.gz
